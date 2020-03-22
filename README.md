@@ -1,7 +1,7 @@
 # Academic-Online-Registration-System
  
- Contributor :
+ Contributor :<br>
      ADITYA GOND <br>
-     P ITISHREE PATRO
-     SHARMILEE DE
-     RAMSANKAR HAZRA
+     P ITISHREE PATRO<br>
+     SHARMILEE DE<br>
+     RAMSANKAR HAZRA<br>
