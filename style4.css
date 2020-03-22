@@ -1,0 +1,14 @@
+label{
+	
+	margin-left: 30px;
+}
+body{
+	margin: 30px;
+}
+hr{
+	height: 2px;
+	background-color: #c61951;
+}
+#form1{
+	overflow: scroll;
+}

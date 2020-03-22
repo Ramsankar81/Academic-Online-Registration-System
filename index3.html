@@ -1,0 +1,116 @@
+<html lang="en">
+	<head>
+		<link href="https://fonts.googleapis.com/css?family=Crimson+Text&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="mystyle3.css" type="text/css">
+	</head>
+	<body>
+		<div class="main">
+			<form action="" id="multistep_form">
+				<!--progressbar-->
+				<ul id="progress_header">
+					<li class="active"></li>
+					<li></li>
+					<li></li>
+				</ul>
+			<!-- Step 01 -->
+	            <div class="multistep-box">
+	                <div class="title-box">
+	                    <h2>Examination Section</h2>
+	                </div>
+	                <p>
+	                    <input type="text" name="reg_no" placeholder="Registration Number" id="reg_no">
+	                    <span id="error-reg_no"></span>
+	                </p>
+	                <p>
+	                    <input type="text" name="name" placeholder="Name" id="name">
+	                    <span id="error-name"></span>
+	                </p>
+	                <p>
+	                    <select type="text" name="branch" placeholder="Branch" id="branch">
+	                    	<option value="">--Branch--</option>
+	                     	<option value="volvo">CSE</option>
+						    <option value="saab">Mechanical</option>
+						    <option value="fiat">Civil</option>
+						    <option value="audi">Electrical</option>
+						    <option value="audi">Architecture</option>
+						    <option value="audi">production</option>
+						    <option value="audi">metallurgy & Material</option>
+						    <option value="audi">Chemical</option>
+						    <option value="audi">Elect & Telecom</option>
+						    <option value="audi">MCA</option>
+						 </select>
+	                    <span id="error-branch"></span>
+	                </p>
+	                <p>
+	                    <select type="text" name="sem" placeholder="Semester" id="sem">
+	                    	<option value="">--Semester--</option>
+	                     	<option value="1">First</option>
+						    <option value="volvo">Second</option>
+						    <option value="volvo">Third</option>
+						    <option value="volvo">Forth</option>
+						    <option value="volvo">Fifth</option>
+						    <option value="volvo">Sixth</option>
+						    <option value="volvo">Seventh</option>
+						    <option value="volvo">Eighth</option>
+						 </select>
+	                    <span id="error-sem"></span>
+	                </p>
+					<p>
+	                    <select type="text" name="stream" placeholder="Stream" id="stream">
+	                    	<option value="">--Stream--</option>
+	                     	<option value="volvo">B.Tech</option>
+						    <option value="saab">MCA</option>
+						    <option value="fiat">M.tech</option>
+						    <option value="audi">B.Arch</option>
+						 </select>
+	                    <span id="error-stream"></span>
+	                </p>
+	                <p>
+	                    <input type="text" name="phone" placeholder="Phone" id="phone">
+	                    <span id="error-phone"></span>
+	                </p>
+	                <p>
+	                    <input type="text" name="roll" placeholder="Roll Number" id="roll">
+	                    <span id="error-roll"></span>
+	                </p>
+	                <p>
+	                    <input type="text" name="tran_id" placeholder="Transaction Id" id="tran_id">
+	                    <span id="error-tran_id"></span>
+	                </p>
+	                <p>
+						<label for="myfile">Upload Documents:</label>
+	                    <input type="file" id="myfile" name="myfile" placeholder="Upload Doc">
+	                    <span id="error-cpass"></span>
+	                </p>
+	                <p class="nxt-prev-button"><input type="button" name="next" class="fs_next_btn action-button" value="Next" /></p>
+	            </div>
+
+	             <!-- Step 02 -->
+	            <div class="multistep-box">
+	                <div class="title-box">
+	                    <h2>Account Section</h2>
+	                </div>
+	                <p>
+	                    <input type="text" name="twitter" placeholder="Twitter" id="twitter">
+	                    <span id="error-twitter"></span>
+	                </p>
+	                <p>
+	                    <input type="text" name="facebook" placeholder="Facebook" id="facebook">
+	                    <span id="error-facebook"></span>
+	                </p>
+	                <p>
+	                    <input type="text" name="linkedin" placeholder="Linkedin" id="linkedin">
+	                    <span id="error-linkedin"></span>
+	                </p>
+	                <p class="nxt-prev-button">
+	                    <input type="button" name="previous" class="previous action-button" value="Previous" />
+	                    <input type="button" name="next" class="ss_next_btn action-button" value="Next" />
+	                </p>
+	            </div>
+			</form>
+		</div>
+
+
+		<script src="myscripts3.js"></script>
+	</body>
+</html>
